@@ -112,27 +112,33 @@
                         <!-- Success Alert -->
                          <div class="alert alert-success alert-dismissible fade show" id="successalert">
                              <strong>Success!</strong> The files are loading.
-                         <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+                         <button type="button" class="close" data-dismiss="alert">&times;</button>
                             </div>
+                            <!-- Success Alert -->
+                            <h3 style="text-align: center;">SUCCESS MESSAGE</h3>
+                         <div class="alert alert-success alert-dismissible fade show">
+                            <strong>Success!</strong> The files are loading.
+                        <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+                           </div>
                         <!-- Error Alert -->
-                        <h3 style="text-align: left; margin-top: 25px;">ERROR MESSAGE</h3>
+                        <h3 style="text-align: center;">ERROR MESSAGE</h3>
                         <div class="alert alert-danger alert-dismissible fade show">
                             <strong>Error!</strong> Oops! The files stopped loading, please click the restart server.
                             <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
                         </div>
 
-                        <div class="alert alert-danger alert-dismissible fade show">
+                        <div class="alert alert-warning alert-dismissible fade show">
                             <strong>Error!</strong> Oops! The files stopped loading, please click the restart server.
                             <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
                         </div>
-                        <div class="alert alert-danger alert-dismissible fade show">
+                        <div class="alert alert-dark alert-dismissible fade show">
                             <strong>Error!</strong> Oops! The files stopped loading, please click the restart server.
                             <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
                         </div>
 
-                        <!-- <div class="progress">
+                        <div class="progress">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
-                          </div> -->
+                          </div>
 
                         <button type="submit" class="btn btn-primary" id="restart">Restart server</button>
 
