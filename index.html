@@ -8,138 +8,234 @@
     <title>LUC batch</title>
 </head>
 <body>
+
+  <!-- HEADER TAG  STARTS HERE-->
       <div class="header">
              <h1>LUC BATCH</h1>
              <!--TABS-->
              <div>
              <nav class="head">
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected= "true">Batch List</a>
-                  <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Server Status</a>
+                  <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected= "true">Batch Label</a>
+                  <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Batch List</a>
+                  <a class="nav-link"  id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"> Server Status</a>
                 </div>
               </nav>
             </div>
-        </div>
+      </div>
+
+
+      <!-- HEADER TAG ENDS HERE-->
+
+      <!-- MAIN DIV STARTS HERE-->
         <div style="background-color: #fff;padding: 20px;">
             
+          <!-- TAB CONTENT STARTS HERE-->
               <div class="tab-content" id="nav-tabContent">
+
+                <!-- BATCH LABEL STARTS HERE-->
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                     <!-- date input -->
-                    <div>
-                            <label for="" style="color: #000;">From Date:</label>
-                            <input type="date" name="" id="">
+                     
+                  <!-- PARENT DIV STARTS HERE-->
+                    <div class="container" style="font-family: Arial, Helvetica, sans-serif;">
 
-                            <label for="" style="color: #000;">To Date:</label>
-                            <input type="date" name="" id="">
-                            <button type="submit" class="btn btn-primary">Search</button>
-                            <!-- TABLE -->
-                            
-                            <table class="table table-border">
-                              <thead>
-                              <table class="table table-bordered">
-                                  <thead>
-                                    <tr>
-                                      <th scope="col">S/N</th>
-                                      <th scope="col">Owner Name</th>
-                                      <th scope="col">Folder RSN</th>
-                                      <th scope="col">Bill Number</th>
-                                      <th scope="col">Date Generate</th>
-                                      <th scope="col">Status</th>
-                                      <th scope="col">Download/View</th>
-                                    </tr>
-                                  </thead>
-                                  <tbody>
-                                    <tr>
-                                        <th scope="row" style="color: #000;">#</th>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td><a href="http://#" download="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-                                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-                                          </svg> Download</a></td>
-                                      </tr>
-                                    <tr>
-                                      <th scope="row" style="color: #000;">#</th>
-                                      <td># </td>
-                                      <td>#</td>
-                                      <td>#</td>
-                                      <td>#</td>
-                                      <td>#</td>
-                                      <td><a href="http://#" download="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-                                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-                                      </svg> Download</a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" style="color: #000;">#</th>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td><a href="http://#" download="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-                                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-                                          </svg> Download</a></td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row" style="color: #000;">#</th>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td>#</td>
-                                        <td><a href="http://#" download="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-                                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-                                          </svg> Download</a></td>
-                                      </tr>
-                                    
-                                  </tbody>
-                            </table>
+                      <!-- card1 -->
+                     <div class="card w-70">
+                      <div class="card-body">
+                        <div class="row" mt-1 mb-1>
+                          <div class="col-md-3">
+                               <label for="Year">Year</label><br>
+                               <label for="Year">2020</label>
+                          </div>
+                          <div class="col-md-3">
+                            <label for="Year">2000/50000</label>
+                            <div class="progress">
+                              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+                              </div>
+                          </div>
+                          <div class="col-md-3">
+                              <button type="submit" class="btn btn-primary float-right" id="load">&#10515; Download</button>
+                          </div>
                         </div>
-                        </div>
-                  
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    
-                    
-                    <!-- ERROR MESSAGE -->
+                      </div>
+                    </div>
+                      <!-- CARD1 ENDS HERE-->
 
-                    <div class="alert"> 
-                        <!-- Success Alert -->
-                         <div class="alert alert-success alert-dismissible fade show" id="successalert">
-                             <strong>Success!</strong> The files are loading.
-                         <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+                    <!-- card2  STARTS HERE-->
+                    <div class="card w-70" style="margin-top: 20px;">
+                      <div class="card-body">
+                        <div class="row" mt-1 mb-1>
+                          <div class="col-md-3">
+                               <label for="Year">Year</label> <br>
+                               <label for="Year">2020</label>
+                          </div>
+                          <div class="col-md-3">
+                            <label for="Year">50000/50000</label>
+                            <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
                             </div>
-                        <!-- Error Alert -->
-                        <h3 style="text-align: left; margin-top: 25px;">ERROR MESSAGE</h3>
-                        <div class="alert alert-danger alert-dismissible fade show">
-                            <strong>Error!</strong> Oops! The files stopped loading, please click the restart server.
-                            <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+                          </div>
+                          <div class="col-md-3">
+                              <button type="submit" class="btn btn-primary float-right" id="load">&#10515; Download</button>
+                          </div>
                         </div>
+                      </div>
+                    </div>
+                    <!-- CARD 2 ENDS HERE-->
 
-                        <div class="alert alert-danger alert-dismissible fade show">
-                            <strong>Error!</strong> Oops! The files stopped loading, please click the restart server.
-                            <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+                   <!-- card3  START HERE-->
+                    <div class="card w-70" style="margin-top: 20px;">
+                      <div class="card-body">
+                        <div class="row" mt-1 mb-1>
+                          <div class="col-md-3">
+                               <label for="Year">Year</label><br>
+                               <label for="Year">2020</label>
+                          </div>
+                          <div class="col-md-3">
+                            <label for="Year">200/50000</label>
+                            <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 20%"></div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                              <button type="submit" class="btn btn-primary float-right" id="load">&#10515; Download</button>
+                          </div>
                         </div>
-                        <div class="alert alert-danger alert-dismissible fade show">
-                            <strong>Error!</strong> Oops! The files stopped loading, please click the restart server.
-                            <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
-                        </div>
-
-                        <!-- <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
-                          </div> -->
-
-                        <button type="submit" class="btn btn-primary" id="restart">Restart server</button>
-
-                        
+                      </div>
+                    </div>
+                      <!-- card3  end -->
                 </div>
+                  <!-- PARENT DIV ENDS HERE-->
+                </div>
+
+               <!-- BATCH LABEL ENDS HERE-->
+
+                 <!-- BATCH LIST STARTS HERE-->
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                   
+                  <!--PARENT CONTAINER STARTS HERER-->
+                   <div>
+                    <label for="" style="color: #000;">From Date:</label>
+                    <input type="date" name="" id="From">
+
+                    <label for="" style="color: #000;">To Date:</label>
+                    <input type="date" name="" id="to">
+                    <button type="submit" class="btn btn-primary" id="hey">Search</button>
+                    <!-- TABLE -->
+                    
+                    <!-- <table class="table table-border">
+                      <thead> -->
+                      <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th scope="col">S/N</th>
+                              <th scope="col">Owner Name</th>
+                              <th scope="col">Folder RSN</th>
+                              <th scope="col">Bill Number</th>
+                              <th scope="col">Date Generate</th>
+                              <th scope="col">Status</th>
+                              <th scope="col">Download/View</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                                <th scope="row" style="color: #000;">#</th>
+                                <td>#</td>
+                                <td>#</td>
+                                <td>#</td>
+                                <td>#</td>
+                                <td>#</td>
+                                <td><a href="http://#" download="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                                    <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                                    <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                                  </svg> Download</a></td>
+                              </tr>
+                            <tr>
+                              <th scope="row" style="color: #000;">#</th>
+                              <td># </td>
+                              <td>#</td>
+                              <td>#</td>
+                              <td>#</td>
+                              <td>#</td>
+                              <td><a href="http://#" download="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                              </svg> Download</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="color: #000;">#</th>
+                                <td>#</td>
+                                <td>#</td>
+                                <td>#</td>
+                                <td>#</td>
+                                <td>#</td>
+                                <td><a href="http://#" download="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                                    <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                                    <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                                  </svg> Download</a></td>
+                              </tr>
+                              <tr>
+                                <th scope="row" style="color: #000;">#</th>
+                                <td>#</td>
+                                <td>#</td>
+                                <td>#</td>
+                                <td>#</td>
+                                <td>#</td>
+                                <td><a href="http://#" download="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                                    <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                                    <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                                  </svg> Download</a></td>
+                              </tr>
+                            
+                          </tbody>
+                    </table>
+                </div>
+                <!--PARENT CONTAINER ENDS HERER-->
+                 
               </div>
+               <!-- BATCH LIST ENDS HERE-->
+              
+
+               <!-- STATUS SERVER STARTS HERE-->
+              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                 <!-- ERROR MESSAGE STARTS HERE -->   
+                <div class="alert"> 
+                <!-- Success Alert -->
+                 <div class="alert alert-success alert-dismissible fade show" id="successalert">
+                     <strong>Success!</strong> The files are loading.
+                 <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+                    </div>
+                <!-- Error Alert -->
+                <h3 style="text-align: left; margin-top: 30px; margin-bottom: 35px;">ERROR MESSAGE</h3>
+                <div class="alert alert-danger alert-dismissible fade show">
+                    <strong>Error!</strong> Oops! The files stopped loading, please click the restart server.
+                    <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+                </div>
+
+                <div class="alert alert-danger alert-dismissible fade show">
+                    <strong>Error!</strong> Oops! The files stopped loading, please click the restart server.
+                    <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+                </div>
+                <div class="alert alert-danger alert-dismissible fade show">
+                    <strong>Error!</strong> Oops! The files stopped loading, please click the restart server.
+                    <!-- <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+                </div>
+
+                <!-- <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+                  </div> -->
+
+                <button type="submit" class="btn btn-primary" id="restart">Restart server</button>  
+        </div>
+         <!-- ERROR MESSAGE STARTS HERE -->   
+      </div>
+       <!-- STATUS SERVER ENDS HERE-->
             </div>
+            <!-- TAB CONTENT ENDS HERE-->
+            </div>
+            <!-- MAIN DIV STARTS HERE-->
+
+
 <!-- script land -->
             <script src="/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
